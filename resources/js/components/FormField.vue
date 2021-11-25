@@ -112,7 +112,9 @@ export default {
             arrayErrors: []
         }
     },
-
+    mounted: function(){
+        console.log("props",this.props);
+    },
     methods: {
 
 
